@@ -79,7 +79,7 @@ const Api = (robot) => {
 module.exports = (robot) => {
   const { add, remove } = Api(robot);
 
-  // List for "r", followed by a flag of ?, +, or -, followed by a space, followed by a number.
+  // Listen for "r", followed by a flag of ?, +, or -, followed by a space, followed by a number.
   robot.respond(/r([?+-]) ([\d]+)/, (response) => {
     const [, flag, number] = response.match;
 
