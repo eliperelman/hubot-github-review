@@ -9,7 +9,7 @@ A Hubot interface to modify review flags for GitHub Pull Requests
 In your Hubot instance directory run:
 
 ```sh
-npm install --save hubot-github-review`
+npm install --save hubot-github-review
 ```
 
 Then add `hubot-github-review` to your `external-scripts.json`:
@@ -39,6 +39,8 @@ The GitHub repo name for which to modify pull requests. Needs to be in the form 
 **hubot-github-review** listens for messages matching the following format: `FLAG PR_NUMBER`
 
 For example, if using the IRC adapter and your Hubot is named "hubot":
+
+---
 
 Request a review for Pull Request #100, Hubot responds:
 
