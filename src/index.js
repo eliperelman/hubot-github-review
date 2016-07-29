@@ -42,9 +42,9 @@ const messages = {
 };
 
 /**
- * Request :: Object -> String -> String -> a | Undefined -> Promise
+ * Request :: Object -> String -> String -> a -> Promise
  */
-const Request = R.curry((robot, method, url, data = '') => {
+const Request = R.curry((robot, method, url, data) => {
   const request = robot
     .http(url)
     .header('Content-Type', 'application/json')
