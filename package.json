@@ -1,0 +1,18 @@
+{
+  "name": "hubot-github-review",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "description": "A Hubot interface to modify review flags for GitHub Pull Requests",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "keywords": ["hubot-scripts"],
+  "author": "Eli Perelman <eli@eliperelman.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "ramda": "0.21.0"
+  }
+}
